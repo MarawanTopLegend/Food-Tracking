@@ -1,0 +1,22 @@
+.HabitsOverView .Title .CheckMarkLogo{
+    background-image: url(../../Assets/checkmark_gray.svg);
+    width: 1.5em;
+    height: 1.5em;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: 0;
+    margin-right: 0.5em;
+    font-size: 1.5em;
+}
+.HabitsOverView .Title{
+    display: flex;
+    align-items: center;
+}
+.HabitsOverView .CurrentDays{
+    display: flex;
+    height: 2em;
+    margin-left: 5em;
+}
+
+
+

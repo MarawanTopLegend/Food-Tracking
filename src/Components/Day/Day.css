@@ -1,0 +1,165 @@
+.Day{
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    padding-top: 0.2em;
+}
+/*                       */
+.DayResult{
+    display: grid;
+    grid-template-columns: repeat(9,1fr);
+    width: 100%;
+    border-bottom: 1px solid rgba(55, 53, 47, 0.1);
+    border-top: 1px solid rgba(55, 53, 47, 0.1);
+    font-size: 0.5em;
+    padding: 1em;
+}
+.DayResult h1{
+    font-weight: 600;
+    text-align: center;
+}
+.DayResult input{
+   transform: scale(1.5);
+    margin: auto;
+}
+/*                          */
+
+
+.DayCustomize{
+display: none;
+grid-template-columns: 30% 75%;
+text-align: center;
+font-size: 0.7em;
+padding: 1em;
+
+}
+.DayDetails{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.DayDetails h2,.DayDetails div label{
+ font-weight: 500;
+ margin: 0.5em;
+}
+.DayDetails input[type="number"] {
+   height: 2em;
+   margin: 0.5em;
+   padding-left: 1em;
+   width: 40%;
+   margin-top: 1em;
+}
+
+.DayDetails div{
+    font-size: 1.5em !important;
+    font-weight: 500;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    
+}
+.DayDetails div input{
+    transform: scale(1.5);
+}
+
+/**/
+
+.DayMeals{
+    border: 1px solid rgba(55, 53, 47, 0.1);
+    padding: 1em;
+}
+.DayMeals button{
+    appearance: none;
+    background-color: #2ea44f;
+    border: 1px solid rgba(27, 31, 35, .15);
+    border-radius: 6px;
+    box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    padding: 6px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    white-space: nowrap;
+}
+.CustomMealButtons{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    padding: 1em;
+    border-bottom: 1px solid rgba(55, 53, 47, 0.1);
+    border-top: 1px solid rgba(55, 53, 47, 0.1);
+    margin-top: 1em;
+}
+.DayMeals input{
+    padding: 1em;
+    width: 60%;
+    text-align: center;
+    margin: auto;
+}
+
+/**/
+.Warning{
+    background-color: red;
+    height: 5em;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    display: none;
+}
+
+.Total{
+    border-bottom: 1px solid rgba(55, 53, 47, 0.1);
+    border-top: 1px solid rgba(55, 53, 47, 0.1);
+    margin-top: 5em;
+    color: rgb(118, 118, 118);
+}
+.Menu{
+    transition: 0.3s all    ;
+}
+.Menu:hover{
+    cursor: pointer;
+    transform: scale(1.5);
+}
+
+
+/**/
+
+
+.SearchFoodInputs button{
+margin-left: 1em;
+}
+
+/**/
+.SearchItem{
+    border-bottom: 1px solid rgba(55, 53, 47, 0.1);
+    border-top: 1px solid rgba(55, 53, 47, 0.1);
+    display: none;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    align-items: center;
+    padding: 1em;
+    color: rgb(118, 118, 118);
+}
+.SearchItem input{
+ width: 10em;
+ margin-left: 1em;
+ margin-right: 1em;
+}
+.SearchItem button{
+    height: 3em;
+}
+.SearchItem img{
+    width: 6em;
+    margin-right: 1em;
+}

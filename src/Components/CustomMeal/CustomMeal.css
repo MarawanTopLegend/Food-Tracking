@@ -1,0 +1,16 @@
+.CustomMeal{
+    display:flex;
+    margin: 0em 0em 0em 1em;
+    align-items: center;
+    
+}
+.CustomMeal input,.CustomMeal button{
+    margin: 0em 0em 0em 1em;
+    height: 50%;
+}
+.CustomMeal h1{
+    color: rgb(118, 118, 118);
+}
+.RemoveButton{
+    background-color: red !important;
+}

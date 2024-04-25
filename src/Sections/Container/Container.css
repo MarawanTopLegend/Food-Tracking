@@ -1,0 +1,12 @@
+.Container{
+    width: 90%;
+    margin: auto;
+    margin-top: 2em;
+}
+.ContainerContent{
+    border: 1px solid rgba(55, 53, 47, 0.16);
+    width: 100%;
+    margin-top: 1em;
+    padding: 1em 
+}
+
